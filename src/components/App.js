@@ -1,11 +1,14 @@
 import React from 'react'
 import ReactDom from 'react-dom'
+import SearchBar from './SearchBar'
 
 
 class App extends React.Component{
     render(){
         return(
-            <div>hi</div>
+            <div>
+                <SearchBar />
+            </div>
         )
     }
 }
